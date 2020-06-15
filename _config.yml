@@ -21,7 +21,7 @@
 title: Learn from My Experiences
 email: tiarose03142014@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi there! Seems that you discovered my little piece of the internet. Please feel free to read  my blogs about my experiences from banking to motherhood. If I my writings can help one person, then creating this website was worthwhile.
+  Hi there! Seems that you discovered my little piece of the internet. Please feel free to read  my blogs about my experiences from banking to motherhood. If my writings can help one person, then creating this website was worthwhile.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://trose2014.github.io/my-blog/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  TRose2014

@@ -4,34 +4,73 @@
 
 body{
   background-color: #EDBEAD;
-  color: #767676;
+  color: black;
 
   a{
-    color: #A23E48;
+    color: #933342;
   }
 }
 
 .main-content{
+  display: flex;
+  flex-direction: column;
+  
   h1, h2, h3, h4, h5{
-    // color:#393B3D;
-    // color:#444545;
-    // color:#6C535B;
-    color:#2D0F47;
+    color:#381358;
     font-weight: bold;
+  }
 
+  p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p, li, h5 {
+    font-size: .75em;
+    line-height: 2em;
   }
 }
 
-@media screen and (min-width: 64em) { .main-content { max-width: 64rem; padding: 2rem 6rem; margin: 0 auto; font-size: 2rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .main-content { padding: 2rem 4rem; font-size: 1.5rem; } }
-@media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1.5rem; } }
-.main-content img { max-width: 100%; }
+@media screen and (min-width: 64em) { 
+  .main-content { 
+    max-width: 64rem; 
+    padding: 2rem 6rem; 
+    margin: 0 auto; 
+    font-size: 2rem; 
+  } 
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) { 
+  .main-content { 
+    padding: 2rem 4rem; 
+    font-size: 1.5rem; 
+  } 
+}
+
+@media screen and (max-width: 42em) { 
+  .main-content { 
+    padding: 2rem 1rem; 
+    font-size: 1.5rem; 
+  } 
+}
+
+.main-content img { 
+  max-width: 100%; 
+}
 
 .page-header {
   background-image: linear-gradient(120deg, #EDBEAD, #A23E48);
 
   a{
     display: none;
-  
   }
 }
