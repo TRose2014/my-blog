@@ -6,4 +6,5 @@ layout: default
 ---
 
 [Tech](./navigation/tech.html) <br>
-[Finance](./navigation/finance.html)
+[Finance](./navigation/finance.html) <br>
+[About Me](./about.markdown)
