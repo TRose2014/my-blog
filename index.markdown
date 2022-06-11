@@ -5,7 +5,7 @@
 layout: default
 ---
 
-[Tech](./navigation/tech.html) <br>
+<!-- [Tech](./navigation/tech.html) <br>
 [Finance](./navigation/finance.html) <br>
 [Travel](./navigation/travel.html) <br>
-[About Me](./about.markdown)
+[About Me](./about.markdown) -->
