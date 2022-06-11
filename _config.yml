@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  TRose2014
 repository: TRose2014/my-blog
 
+
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
