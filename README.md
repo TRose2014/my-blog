@@ -3,6 +3,12 @@
 ## My notes:
 assets - css - styles.scss where to add styles
 _site - assets - css - styles.css (all the styles) - doesn't save 
+_site - Auto pulls from other sources, can't edit
+
+_layouts - default.md - navigation bar (all pages use)
+Index.md - Home
+Navigation folder navigates for specific pages
+_posts where to add/update posts
 
 jekyll serve or bundle exec jekyll serve - on localhost:4000
 

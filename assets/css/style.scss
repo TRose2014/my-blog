@@ -5,9 +5,24 @@
 body{
   background-color: #EDBEAD;
   color: black;
+  text-align: center;
 
-  a{
+  nav {
+    margin-top: 3%;
+  }
+
+  a {
     color: #933342;
+  }
+
+  li {
+    list-style: none;
+    text-align: left;
+  }
+
+  .list-header {
+    text-align: left;
+    list-style: auto;
   }
 }
 
@@ -69,8 +84,42 @@ body{
 
 .page-header {
   background-image: linear-gradient(120deg, #EDBEAD, #A23E48);
+}
 
-  a{
-    display: none;
-  }
+
+// Home
+
+#home-intro section.main-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+      "header header header header"
+      "main main sidebar sidebar"
+      "footer footer footer footer";
+  grid-column-gap: 2%;
+
+      h3 {
+        grid-area: header;
+      }
+
+      p {
+        grid-area: main;
+      }
+
+      img {
+        grid-area: sidebar;
+        // max-width: 150%;
+        border-radius: 30%;
+      }
+
+      footer, a {
+        grid-area: footer;
+      }
+
+      strong {
+        font-size: 5em;
+        display: contents;
+        font-family: serif;
+        color: #381358;
+      }
 }
