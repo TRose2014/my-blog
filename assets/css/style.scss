@@ -104,4 +104,11 @@ body{
       footer, a {
         grid-area: footer;
       }
+
+      strong {
+        font-size: 5em;
+        display: contents;
+        font-family: serif;
+        color: #381358;
+      }
 }
