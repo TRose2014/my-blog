@@ -13,8 +13,8 @@ tags: [certification]
 
   <body style="text-align: left;">
     <h1>{{ page.title }}</h1>
-    <h6>Written on {{page.date}}</h6>
-    <h6>Editted on 07-03-2022</h6>
+    <h6>Written on: {{ page.date | date: "%m/%d/%Y" }}</h6>
+    <h6>Edited on: 07/03/2022</h6>
 
     <h2>Intro</h2>
     <p>I recently passed my AWS Solutions Architect - Associate exam on my first try! I decided what better way to celebrate than to write a blog post about how I studied in hopes I could help someone else.</p>
